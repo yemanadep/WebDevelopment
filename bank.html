@@ -1,16 +1,16 @@
 <html>
-<head>
-<title>Bank Information</title>
-<link rel="stylesheet" href="style.css" >
-<!-- CSS -->
-<link rel="stylesheet" 
-href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
- <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <title>Bank Information</title>
+    <link rel="stylesheet" href="style.css" >
+    <!-- CSS -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
 <body>
 <section id="nav-bar">
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -19,54 +19,47 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" i
     <i class="fa fa-bars"="true"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                 <!-- <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>-->
-				  <a class="nav-link" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="customer.html">View Customers & Transfer History</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <!-- <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>-->
+        <a class="nav-link" href="home.html">Home</a>
       </li>
-   
-                <li class="nav-item">
-                  <a class="nav-link" href="bank.html">About Us<span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="customer.html">View Customers & Transfer History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bank.html">About Us<span class="sr-only">(current)</span></a>
       </li>
 	  </ul>
   </div>
 </nav>
 </section>
-<!----------------------------------------->
 
-<section id="action" class="coloured-section">
-    <h1 class="title">Why should you choose us ?</h1>
+  <section id="action" class="coloured-section">
+    <h2>
+      <img src="data:image/jpeg;base64,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" width="200px" height="200px">
+         
+       </h2>
+    <h4 class="title">Head Office:- Bhiwandi,Thane. <br> Contact Us - grip@bank.com <br> </h4>
   </section>
-  <section id="features1" class="white-section">
-        <div class="row text-center">
-          <div class="feature-boxes col-lg-4 col-md-6">
-            <h3 class="feature-title">Do banking in just single click</h3>
-            <p>You can check your transaction easily by one click</p>
-          </div>
-          <div class="feature-boxes col-lg-4 col-md-6">
-            <h3 class="feature-title">Check your Transaction</h3>
-            <p>We provide you best and secure networks to work.</p>
-          </div>
-          <div class="feature-boxes col-lg-4 col-md-6">
-            <h3 class="feature-title">We are here for a service of trust.</h3>
-            <p>Send your money easily from anywhere.</p>
-          </div>
-    </div>
-    </section>
+  <section id="features1" class="coloured-section">
     
-    <!---Action -->
-    <footer id="footer" class="coloured-section">
-      <p>FIND US ON SOCIAL MEDIA</p>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <i class="social-icon fa fa-facebook-square"aria-hidden></i>
-        <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
-      <i class="social-icon fa fa-twitter" aria-hidden="true"></i>
-        <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
-        <p>Address- Near main Road Shahu Complex Shop NO 22,23,24,25,IndiraNagar,Aurangabad,431004<p>
-        <p>© Copyright 2020 SPARKS Bank</p>
-      </footer>
+    <div class="row text-center">
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title">Best ATM service Award</h3>
+        <p>GRIPs ATM are equiped with User Friendly Environment.</p>
+      </div>
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title">Best and Polite Employees</h3>
+        <p>Our well qualified employees are ready to help you 24/7</p>
+      </div>
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title">Banking in just one tap</h3>
+        <p>You can access your account easily from anywhere</p>
+      </div>
+    </div>
+  </section>
+    
+    
     </body>
-    </html>
+</html>

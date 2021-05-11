@@ -4,18 +4,19 @@
 }
 body
 {
-	font-family:sans-serif;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #nav-bar
 {
-	background-color:#055f7b;
+	background-color:#1f2020;
 	position: sticky;
 	top:0;
 	z-index:10;
-	float: right;
+	float:none;
+	margin: 10px;
 }
 .nav-link:hover{
-    background-color:rgb(10, 134, 134);
+    background-color:rgb(134, 139, 139);
 }
 .navbar
 {
@@ -33,34 +34,34 @@ navbar-brand img
 }
 .navbar-nav li a
 {
-color:#fff !important;
+color:rgb(226, 219, 219) !important;
 font-weight:600;
 float:right;
 text-align:left;
 }
 .fa-bars
 {
-	color:#fd0932;
+	color:#1a1819;
 	font-size:30p !important;
 }
 .navbar-toggler
 {
 	outline:none !important;
 }
-/*---banner section--*/
+/*---Banner section--*/
 #main
 {
-	text-align: center;
-background-color:#53ddff;
-color:#fff;
-padding-top:5%;	
+text-align: center;
+background-color:#111213;
+color:rgb(250, 244, 244);
+padding-top:10px;	
 }
+
 .container h1 img{
 	padding-bottom: 10px;
 }
 
 
-/*---service section---*/
 #features1
 {
 	text-align: center;
@@ -69,9 +70,17 @@ padding-top:5%;
  #features
  {
      text-align: center;
-	 padding: 10% 15%; background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-power-bank-contrast-color-shared-banner-image_19531.jpg');
+	 padding: 14% 30%;
+	 background-image: url('https://www.newsclick.in/sites/default/files/2016-12/One_Rupee_Indian_coins.JPG');
+	 background-repeat: no-repeat;
+  	 background-size:cover;
+	
+	 
+
 
  }
+ 
+ 
  .features1 h3
 {
 	padding:5px;
@@ -85,21 +94,12 @@ padding-top:5%;
 	margin-top:25px;
 	text-transform:uppercase;
 }
-.title::before
-{
-	content:'';
-	background:#409fec;
-	height:5px;
-	width:600px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	transform:translatey(63px);
-}
+
+
 .title::after
 {
 	content:'';
-	background:#e7099d;
+	background:#242324;
 	height:10px;
 	width:50px;
 	margin-left:auto;
@@ -114,17 +114,29 @@ padding-top:5%;
 	padding:10px 25px;
 	border:none;
 	align-content: center;
-	background-image:linear-gradient(to right,#17ba97,#e75ee7)
+	background-image:linear-gradient(to right,#edf1f0,#faf4fa)
 }
-/* Action*/
+
   #action{
-    background-color:#41cdf0;
-    padding: 7% 15%;
-    text-align: center;
+    background-color:#222424;
+    padding: 2% 15%;
+    text-align: right;
     line-height: 1.5;
-    color: rgb(250, 246, 246);
+    color: rgb(250, 249, 249);
   }
-  .main{
+
+
+
+#action h4{
+	
+	text-align: center;
+}
+
+#action h2{
+	text-align: center;
+}
+
+.main{
     font-size: 3rem;
     line-height: 1.5;
     padding: 10px 0px;
@@ -138,10 +150,3 @@ padding-top:5%;
   border-radius: 50%;
 }
 
-/* footer */
-#footer{
-	background-color:#53ddff;
-    color:#fff;
-    padding: 4% 25%;
-    text-align: center;
-}

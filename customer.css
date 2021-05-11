@@ -5,11 +5,12 @@
 
 #nav-bar
 {
-	background-color:#f310a7;
+	background-color:#1f2020;
 	position: sticky;
 	top:0;
 	z-index:10;
-	float: right;
+	float:none;
+	margin: 10px;
 }
 .navbar
 {
@@ -18,7 +19,7 @@
 
 .navbar-nav li
 {
-	padding: 0 10px;
+	padding: 0px;
 }
 .navbar-nav li a
 {
@@ -27,16 +28,20 @@ font-weight:600;
 float:right;
 text-align:left;
 }
+.table-responsive{
+    font-size:1rem;
+    color: rgb(3, 3, 3)!important;
+}
 
 .navbar-brand{
     font-size: 1.5rem;
-    color: #f77c0a!important;
+    color: #0f0f0f!important;
 
 }
 
 .nav-link{
     float: right;
-    color: #f03535!important;
+    color: #6e6b6b!important;
 
 }
 
@@ -47,21 +52,17 @@ text-align:left;
 #main
 {
 	text-align: center;
-background-color:#f779ec;
-}
-.my-info{
-    padding: 2rem 5rem;
+background-color:#363436;
 }
 
 .btn-info{
     padding: 1rem 1.2rem;
-    background-color: rgb(252, 11, 172)!important;
-    color: #fff!important;
+    background-color: rgb(8, 8, 8)!important;
+    color: rgb(255, 251, 251)!important;
     margin-left: 5px;
-    padding: 0.75rem;
     transition: all 0.3s;
 }
 
 .btn-info:hover{
-    background-color: rgb(64, 64, 68)!important;
+    background-color: rgb(68, 68, 70)!important;
 } 
